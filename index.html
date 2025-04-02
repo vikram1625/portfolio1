@@ -1,0 +1,157 @@
+<!DOCTYPE html><html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sri Vikram Reddy - Portfolio</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #1f1c2c, #928dab);
+            color: white;
+            overflow-x: hidden;
+        }
+        nav {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.8);
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+            transition: 0.3s;
+        }
+        nav a:hover {
+            color: #f4a261;
+        }
+        .home {
+            display: flex;
+            height: 100vh;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            text-align: center;
+        }
+        .home h1 {
+            font-size: 50px;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        .home p {
+            font-size: 22px;
+            margin-top: 10px;
+        }
+        .btn {
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 18px;
+            background: #f4a261;
+            border: none;
+            color: white;
+            cursor: pointer;
+            transition: 0.3s;
+            border-radius: 5px;
+        }
+        .btn:hover {
+            background: #e76f51;
+        }
+        .section {
+            padding: 50px;
+            text-align: center;
+            background: rgba(0, 0, 0, 0.7);
+            margin: 50px 20px;
+            border-radius: 10px;
+        }
+        .skills, .projects, .interests {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+        .box {
+            background: rgba(255, 255, 255, 0.2);
+            padding: 15px;
+            border-radius: 5px;
+            font-size: 18px;
+            transition: background 0.3s;
+        }
+        .box:hover {
+            background: rgba(255, 255, 255, 0.4);
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div><a href="#">Sri Vikram Reddy</a></div>
+        <div>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#internships">Internships</a>
+            <a href="#activities">Activities</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav><section class="home">
+    <h1>Welcome to My Portfolio</h1>
+    <p>Aspiring Software Engineer | Problem Solver | Data Enthusiast</p>
+    <button class="btn" onclick="location.href='#about'">Explore My Work</button>
+</section>
+
+<section id="about" class="section">
+    <h2>About Me</h2>
+    <p>I'm Sri Vikram Reddy, a Computer Science and Engineering student at Mohan Babu University, Rangampeta, Tirupati. Passionate about coding, problem-solving, and software development, I aspire to achieve excellence in the tech industry.</p>
+</section>
+
+<section id="skills" class="section">
+    <h2>Technical Skills</h2>
+    <div class="skills">
+        <div class="box">C</div>
+        <div class="box">Java</div>
+        <div class="box">Python</div>
+        <div class="box">HTML, CSS, JavaScript</div>
+        <div class="box">Data Analysis</div>
+    </div>
+</section>
+
+<section id="projects" class="section">
+    <h2>Projects</h2>
+    <div class="projects">
+        <div class="box">To-Do List - A task management app for productivity</div>
+        <div class="box">Data Visualization - Creating interactive data insights</div>
+    </div>
+</section>
+
+<section id="internships" class="section">
+    <h2>Internships & Experience</h2>
+    <div class="skills">
+        <div class="box">Data Entry</div>
+        <div class="box">Social Media Management</div>
+        <div class="box">Content Creation</div>
+        <div class="box">Data Analysis</div>
+    </div>
+</section>
+
+<section id="activities" class="section">
+    <h2>Extracurricular Activities</h2>
+    <div class="interests">
+        <div class="box">Football</div>
+        <div class="box">Cricket</div>
+        <div class="box">Badminton</div>
+        <div class="box">Chess</div>
+        <div class="box">Carroms</div>
+    </div>
+</section>
+
+<section id="contact" class="section">
+    <h2>Contact</h2>
+    <p>Email: srivikramreddy325@gmail.com</p>
+    <p>Phone: 9398987156</p>
+    <p>LinkedIn: <a href="#">linkedin.com/in/srivikramreddy</a></p>
+    <p>GitHub: <a href="#">github.com/srivikramreddy</a></p>
+</section>
+
+</body>
+</html>
